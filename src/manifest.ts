@@ -20,4 +20,16 @@ export const getManifest = () => ({
     page: "options/options.html",
     browser_style: false,
   },
+  browser_specific_settings: {
+    gecko: {
+      id: "{8a7f2c1e-9d4b-4e6a-b3f0-c5d8e2a1b4f7}",
+      strict_min_version: "140.0",
+      data_collection_permissions: {
+        required: ["none"],
+      },
+    },
+    gecko_android: {
+      strict_min_version: "142.0",
+    },
+  },
 })

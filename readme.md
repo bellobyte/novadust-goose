@@ -1,12 +1,14 @@
 <img
   src="./docs/preview.webp"
-  alt="Nordic goose preview"
+  alt="Novadust goose preview"
   style="margin: 0 auto; width: 100%; max-width: 100%"
 />
 
-# [Nordic goose](https://addons.mozilla.org/en-US/firefox/addon/nordic-goose/)
+# Novadust goose
 
-Nordic goose is a new tab extension (aka startpage) with nord colors and a dancing goose.
+Novadust goose is a *fork* of the New Tab/startpage extension (aka startpage): [Nordic goose](https://github.com/PrettyCoffee/nordic-goose) dressed in the [Novadust](https://mmartamg.github.io/novadust/) color palette, with a dancing goose.
+
+All credits to PrettyCoffee and marta.stl.
 
 Features:
 
@@ -17,8 +19,6 @@ Features:
   <li>⌨️ With full keyboard support</li>
   <li>👀 Filter your bookmarks</li>
 </ul>
-
-> Note: This startpage is accompanied by an [firefox theme](https://addons.mozilla.org/en-US/firefox/addon/nord-goose/).
 
 ## Development setup
 

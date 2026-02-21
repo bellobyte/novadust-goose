@@ -1,6 +1,7 @@
 import { createTheme } from "@vanilla-extract/css"
 
 import { tokens as ctpTokens } from "./catppuccino.css"
+import { tokens as novadustTokens } from "./novadust.css"
 
 type Number = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15
 type Color = Record<Number, string>
@@ -140,6 +141,16 @@ export const ctpThemeClass = createTheme(theme, {
     primary: border(ctpTokens.fg.active.base),
   },
   tokens: ctpTokens,
+  space,
+  font,
+})
+
+export const novadustThemeClass = createTheme(theme, {
+  border: {
+    default: border(novadustTokens.fg.muted),
+    primary: border(novadustTokens.fg.active.base),
+  },
+  tokens: novadustTokens,
   space,
   font,
 })

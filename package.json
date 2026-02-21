@@ -1,12 +1,12 @@
 {
-  "name": "nordic-goose",
-  "displayName": "Nordic goose",
-  "description": "Browser startpage with nord colors and a dancing goose.",
+  "name": "novadust-goose",
+  "displayName": "Novadust goose",
+  "description": "Browser startpage with Novadust colors and a dancing goose.",
   "private": true,
   "version": "0.3.1",
   "scripts": {
     "dev": "tsc && vite dev",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && cp -r src/assets dist/assets",
     "start": "npm run build -- --watch --minify false",
     "ext:lint": "web-ext lint -s dist",
     "ext:build": "npm run build && web-ext build -s dist",

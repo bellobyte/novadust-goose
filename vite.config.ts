@@ -19,7 +19,8 @@ export default defineConfig({
   plugins: [
     vanillaExtractPlugin({ identifiers: "debug" }),
     solid(),
-    webExt({
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (webExt as any)({
       manifest: getManifest,
       assets: "assets",
       additionalInputs: ["startpage/startpage.html"],

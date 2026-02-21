@@ -6,11 +6,11 @@ import {
   useContext,
 } from "solid-js"
 
-import { darkThemeClass } from "../theme/theme.css"
+import { novadustThemeClass } from "../theme/theme.css"
 import { BookmarkNode, whichBrowser, createStorage } from "../utils"
 import { useBookmarks } from "./useBookmarks"
 import { ObjectRouterResult, useObjectRouter } from "./useObjectRouter"
-import { ModeState, useThemeMode } from "./useThemeMode"
+import { Mode, ModeState, useThemeMode } from "./useThemeMode"
 
 const toolbarId = { firefox: "toolbar_____", chromium: "1" }
 
@@ -49,9 +49,9 @@ const Context = createContext<ContextState>({
   bookmarks: () => [],
   setHomeId: () => null,
   themeMode: {
-    get: () => "dark",
+    get: (): Mode => "novadust",
     toggle: () => null,
-    class: () => darkThemeClass,
+    class: () => novadustThemeClass,
     set: () => null,
   },
   hideGithub: {

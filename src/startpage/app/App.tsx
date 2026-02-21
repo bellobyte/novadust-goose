@@ -24,7 +24,7 @@ export const App = () => {
         : "Nordic duck"
       : isCtp
       ? "Gooseppuccin"
-      : "Nordic goose"
+      : "NovaDust goose"
   })
 
   return (
