@@ -1,5 +1,5 @@
 <img
-  src="./docs/preview.webp"
+  src="./docs/preview.png"
   alt="Novadust goose preview"
   style="margin: 0 auto; width: 100%; max-width: 100%"
 />
