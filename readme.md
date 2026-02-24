@@ -8,7 +8,7 @@
 
 Novadust goose is a *fork* of the New Tab/startpage extension (aka startpage): [Nordic goose](https://github.com/PrettyCoffee/nordic-goose) dressed in the [Novadust](https://mmartamg.github.io/novadust/) color palette, with a dancing goose.
 
-All credits to PrettyCoffee and marta.stl.
+All credits to [PrettyCoffee](https://github.com/PrettyCoffee) and [marta.stl](https://github.com/mmartamg).
 
 Features:
 
