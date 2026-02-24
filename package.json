@@ -1,7 +1,7 @@
 {
   "name": "novadust-goose",
-  "displayName": "Novadust goose",
-  "description": "Browser startpage with Novadust colors and a dancing goose.",
+  "displayName": "NovaDust goose",
+  "description": "Browser startpage with NovaDust colors and a dancing goose.",
   "private": true,
   "version": "0.3.1",
   "scripts": {

@@ -50,7 +50,14 @@ export const useObjectRouter = (args: ObjectRouterArgs): ObjectRouterResult => {
 
   createEffect(() => {
     const homeId = args.homeId()
-    const home = !homeId ? null : findNodeById(args.nodes(), homeId)
+    let home = !homeId ? null : findNodeById(args.nodes(), homeId)
+    // CHANGED: const home -> let to allow reassignment if homeId is not found
+    // If home is not found and no explicit homeId, try to default to toolbar
+    if (!home) {
+      home = findNodeById(args.nodes(), "toolbar_____") || 
+             findNodeById(args.nodes(), "1")
+    }
+    
     set(home)
   })
 

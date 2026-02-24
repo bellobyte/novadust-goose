@@ -13,7 +13,7 @@ All credits to PrettyCoffee and marta.stl.
 Features:
 
 <ul style="list-style: none; padding-left: 16px;">
-  <li>🦆 Look at a dancing goose</li>
+  <li>🦆 Look at a dancing goose (1 is different than the rest...)</li>
   <li>🎨 Beautiful new tab page</li>
   <li>📂 Navigate through your bookmarks</li>
   <li>⌨️ With full keyboard support</li>
