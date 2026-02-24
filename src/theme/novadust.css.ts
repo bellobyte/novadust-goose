@@ -1,4 +1,4 @@
-// NovaDust color palette — original theme by mmartamg (https://github.com/mmartamg/novadust)
+// Novadust color palette — original theme by mmartamg (https://github.com/mmartamg/novadust)
 
 export const tokens = {
   shadowHsl: "213deg 31% 8%",

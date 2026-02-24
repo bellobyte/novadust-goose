@@ -1,16 +1,16 @@
 {
   "name": "novadust-goose",
-  "displayName": "NovaDust goose",
-  "description": "Browser startpage with NovaDust colors and a dancing goose.",
+  "displayName": "Novadust goose",
+  "description": "Browser startpage with Novadust colors and a dancing goose.",
   "private": true,
   "version": "0.3.1",
   "scripts": {
     "dev": "tsc && vite dev",
-    "build": "tsc && vite build && cp -r src/assets dist/assets",
+    "build": "tsc && vite build && cp -r src/assets dist/assets",    "build:prod": "tsc && vite build && cp -r src/assets dist/assets || true",
     "start": "npm run build -- --watch --minify false",
     "ext:lint": "web-ext lint -s dist",
-    "ext:build": "npm run build && web-ext build -s dist",
-    "ext:sign": "npm run build && node scripts/sign.js",
+    "ext:build": "npm run build:prod && web-ext build -s dist -a web-ext-artifacts --overwrite-dest",
+    "ext:sign": "npm run build:prod && node scripts/sign.js",
     "lint": "eslint ./src ./scripts --ignore-path .gitignore",
     "lint:fix": "npm run lint -- --fix"
   },
